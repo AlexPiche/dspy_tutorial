@@ -17,7 +17,7 @@ pip install flash-attn
 ### Serve Llama3 8b with VLLM
 
 ```bash
-python -m vllm.entrypoints.openai.api_server --model meta-llama/Meta-Llama-3-8B --port 8080
+python -m vllm.entrypoints.openai.api_server --model meta-llama/Meta-Llama-3-8B-Instruct --port 8080
 ```
 
 ### Test yout setup
