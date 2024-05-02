@@ -1,0 +1,39 @@
+{
+  "preference": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "instruction": "In an Excel table, list the following sentence and identify the noun, verb, and adjective in the sentence.\nSentence:\nShe eagerly observed the stars.\nNoun | Verb | Adjective\n-----|------|----------\nShe | observed | eagerly\nstars | |",
+        "text_1": "Sure, I'd be happy to help! Here's the list you requested:\n\nNoun:\n\n* She\n* stars\n\nVerb:\n\n* observed\n\nAdjective:\n\n* eagerly",
+        "text_2": "Noun: She\nVerb: observed\nAdjective: eagerly",
+        "preferred_text": "1"
+      },
+      {
+        "augmented": true,
+        "instruction": "Solve the following puzzle:\nA feline animal was moving in circular motion around a residential building. Please convert the sentence that describes this activity into past tense.",
+        "text_1": "The feline animal was moving in circular motion around a residential building.\nIn past tense, the sentence would be: \"The feline animal moved in circular motion around a residential building.\"",
+        "text_2": "A feline animal was moving in circular motion around a residential building. \n\nConversion into past tense:\n\nA feline animal was moving in circular motion around a residential building.",
+        "preferred_text": "1"
+      },
+      {
+        "augmented": true,
+        "instruction": "Find the missing number in the sequence: 3, 5, 7, __, 13, where the missing number is a prime number and is a multiple of 3.",
+        "text_1": "The missing number in the sequence 3, 5, 7, _, 13 is 9.\n\n9 is a prime number and is a multiple of 3, and the next prime number after 9 is 11, so the missing number is 11.",
+        "text_2": "Great question! The missing number in the sequence is 11.\nWhy?\nWell, the sequence consists of consecutive prime numbers, starting with 3, which is a prime number. Then, the sequence jumps to 5, which is also a prime number. Next, we have 7, which is a prime number. Finally, the sequence reaches 13, which is a prime number that is also a multiple of 3.\nNow, can you see why the next number in the sequence would be 11? That's right! 11 is a prime number that is also a multiple of 3, making it the next number in the sequence.\nI hope this helps! Do you have any more questions?",
+        "preferred_text": "2"
+      },
+      {
+        "augmented": true,
+        "instruction": "Can you provide a table of a word that has four distinct meanings? The table should include the word and its four meanings, as well as an example sentence for each meaning.",
+        "text_1": "Certainly! I'd be happy to help. Here's a table of a word with four distinct meanings, along with example sentences to illustrate each meaning:\n\n| Word | Meaning 1 | Meaning 2 | Meaning 3 | Meaning 4 |\n| --- | --- | --- | --- | --- |\n| Pond | A body of standing water, typically surrounded by land. | A person's head, especially when referring to their intelligence or wisdom. | A sum of money, often used in the phrase \"to pond some cash.\" | To splash or play in a pond. |\n\nExample sentences:\n\nMeaning 1:\n\"The pond was home to a variety of fish and other aquatic life.\"\n\nMeaning 2:\n\"She's got a pond of a head on her shoulders, she's so smart.\"\n\nMeaning 3:\n\"I've got a pond of cash saved up for my dream vacation.\"\n\nMeaning 4:\n\"The children spent the afternoon ponding in the community pool.\"\n\nI hope this helps! Please let me know if you have any other questions.",
+        "text_2": "Sure, here's an example table:\n| Word | Meaning 1 | Example Sentence |\n|------|-----------|------------------|\n| Bank | A financial institution | I'm going to deposit my paycheck at the bank.|\n| Bank | A raised piece of ground | The bank of flowers was blooming beautifully.|\n| Bank | To tilt or lean to one side | The boat began to bank sharply to the left.|\n| Bank | To store up for future use | I'm going to bank my savings for a rainy day.|",
+        "preferred_text": "2"
+      }
+    ],
+    "signature_instructions": "Produce a coherent and well-structured response by combining the provided text fragments, using the necessary punctuation and grammar to ensure clarity and readability, and tailoring the tone and language to the target audience. Use any relevant data formats or specifications to support your answer.",
+    "signature_prefix": "Ensure your response is concise, clear, and easy to understand, as it reflects the company's values and goals.\" | 1 | 2 |\n3\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e: )\n\nI propose the following instruction and prefix based on the observations provided:\n\nObservations: The language model is proficient in generating informative responses that are well-structured, grammatically correct, and use a formal tone. The responses are clear and concise, and the language model is capable"
+  }
+}

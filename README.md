@@ -33,4 +33,6 @@ You can check the prompts folder to see the best prompts.
 
 ## Additional resources
 
-*
+* Check out the tutorials: https://github.com/stanfordnlp/dspy?tab=readme-ov-file#a-tutorials
+* Documentation: https://dspy-docs.vercel.app/
+* Weaviate RAG tutorial: https://weaviate.io/blog/dspy-optimizers 
