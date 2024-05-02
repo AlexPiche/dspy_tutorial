@@ -7,7 +7,7 @@ def test_setup():
     )
     dspy.settings.configure(lm=lm)
     out = dspy.Predict("question -> answer", max_tokens=1)(question="what is the capital of france?")
-    assert out.answer == "paris"
+    assert out.answer.lower() == "paris"
     print("setup works!")
     
     
